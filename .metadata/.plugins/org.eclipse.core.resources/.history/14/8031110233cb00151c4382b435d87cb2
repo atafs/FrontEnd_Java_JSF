@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"
+		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://xmlns.jcp.org/jsf/html">
+	
+	<!-- HEAD -->
+	<h:head>
+	  <title>Std CONFIRM2</title>
+	</h:head>
+	
+	<!-- BODY -->
+	<h:body>
+	
+		<!-- JSF Expression Language (calling beans) -->
+		The student is confirmed: #{studentThree.firstName} #{studentThree.lastName} <br /><br />
+		The student´s country: #{studentThree.country}
+	</h:body>
+</html>

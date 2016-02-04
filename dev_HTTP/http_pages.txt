@@ -2,4 +2,8 @@
 http://localhost:8085/Project_001_JSF_hello/faces/inputForm.xhtml
 
 //Project_002_JSF_createForm
+//student and student_two
 http://localhost:8085/Project_002_JSF_createForm/faces/index.xhtml
+
+http://localhost:8085/Project_002_JSF_createForm/faces/view/student_form.xhtml
+http://localhost:8085/Project_002_JSF_createForm/faces/view/student_two_form.xhtml

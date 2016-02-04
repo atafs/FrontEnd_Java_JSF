@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"
+		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://xmlns.jcp.org/jsf/html"
+>
+	<!-- HEAD -->
+	<h:head>
+	  <title>Student Registration WELCOME</title>
+	</h:head>
+	
+	<!-- BODY -->
+	<h:body>
+	
+		<!-- FORM -->
+		<h:form>
+		
+			<!-- ACTION: will open another xhtml page -->
+			Login for Student Registration: <h:commandButton value="Login" action="view/student_form"/>
+		</h:form>
+	</h:body>
+</html>

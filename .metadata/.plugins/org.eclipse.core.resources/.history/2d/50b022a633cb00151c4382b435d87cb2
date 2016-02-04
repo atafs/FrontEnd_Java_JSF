@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"
+		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://xmlns.jcp.org/jsf/html"
+		xmlns:f="http://xmlns.jcp.org/jsf/core"
+>
+	<!-- HEAD -->
+	<h:head>
+	  <title>Std REGIST2</title>
+	</h:head>
+	
+	<!-- BODY -->
+	<h:body>
+	
+		<!-- FORM: two textFields and one button -->
+		<h:form>
+			First Name: <h:inputText value="#{studentThree.firstName}" /> 
+			<br /><br />
+			
+			Last Name: <h:inputText value="#{studentThree.lastName}" /> 
+			<br /><br />
+			
+			<!-- DROP_DOWN LIST BEAN -->
+			Country: <h:selectOneMenu value="#{studentThree.country}">
+				<f:selectItems value="#{studentThree.countryOptions}" />	
+			</h:selectOneMenu>
+			<br /><br />
+			
+			<!-- RADIO_BUTTON HARDCODED -->
+			<h:selectOneRadio value="£{studentThree.favoriteLanguage}">
+				<f:selectItem itemValue="JAVA" itemLabel="Java" />
+				<f:selectItem itemValue="C#" itemLabel="C Sharp" />
+				<f:selectItem itemValue="C++" itemLabel="C Plus Plus" />
+				<f:selectItem itemValue="SCALA" itemLabel="Scala Functional" />
+				<f:selectItem itemValue="RUBY" itemLabel="Ruby" />
+				<f:selectItem itemValue="PHYTON" itemLabel="Phyton" />
+			</h:selectOneRadio>
+			<br /><br />
+			
+			<!-- ACTION -->
+			<h:commandButton value="SubmitThree" action="student_three_response"/>
+		</h:form>
+	</h:body>
+</html>

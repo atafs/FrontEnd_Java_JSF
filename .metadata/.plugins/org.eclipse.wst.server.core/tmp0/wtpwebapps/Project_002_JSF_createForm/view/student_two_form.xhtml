@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"
+		xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:h="http://xmlns.jcp.org/jsf/html"
+		xmlns:f="http://xmlns.jcp.org/jsf/core"
+>
+	<!-- HEAD -->
+	<h:head>
+	  <title>Std REGIST2</title>
+	</h:head>
+	
+	<!-- BODY -->
+	<h:body>
+	
+		<!-- FORM: two textFields and one button -->
+		<h:form>
+			First Name: <h:inputText value="#{studentTwo.firstName}" /> <br /><br />
+			Last Name: <h:inputText value="#{studentTwo.lastName}" /> <br /><br />
+			
+			<!-- DROP_DOWN LIST BEAN -->
+			Country: <h:selectOneMenu value="#{studentTwo.country}">
+				<f:selectItems value="#{studentTwo.countryOptions}" />	
+			</h:selectOneMenu>
+			
+				<!-- DROP_DOWN LIST HARDCODED --> 
+<!-- 			Country: <h:selectOneMenu value="#{studentTwo.country}"> -->
+<!-- 				<f:selectItem itemValue="PT" itemLabel="Portugal" /> -->
+<!-- 				<f:selectItem itemValue="BR" itemLabel="Brazil" /> -->
+<!-- 				<f:selectItem itemValue="ES" itemLabel="Spain" /> -->
+<!-- 				<f:selectItem itemValue="UK" itemLabel="United Kingdom" /> -->
+<!-- 				<f:selectItem itemValue="USA" itemLabel="United STates" /> -->
+<!-- 				<f:selectItem itemValue="AUS" itemLabel="Australia" />	 -->
+<!-- 			</h:selectOneMenu> -->
+			
+			<!-- ACTION -->
+			<br /><br />
+			<h:commandButton value="SubmitTwo" action="student_two_response"/>
+		</h:form>
+	</h:body>
+</html>
