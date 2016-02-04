@@ -1,2 +1,5 @@
 //Project_001_JSF_hello
 http://localhost:8085/Project_001_JSF_hello/faces/inputForm.xhtml
+
+//Project_002_JSF_createForm
+http://localhost:8085/Project_002_JSF_createForm/faces/index.xhtml

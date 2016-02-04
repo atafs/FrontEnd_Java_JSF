@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="D:\clouds\Drive Ilimitado\FrontEnd_Java_JSF\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\clouds\Drive Ilimitado\FrontEnd_Java_JSF\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Project_001_JSF_hello" path="/Project_001_JSF_hello" reloadable="true" source="org.eclipse.jst.jee.server:Project_001_JSF_hello"/></Host>
+      <Context docBase="D:\clouds\Drive Ilimitado\FrontEnd_Java_JSF\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\clouds\Drive Ilimitado\FrontEnd_Java_JSF\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Project_001_JSF_hello" path="/Project_001_JSF_hello" reloadable="true" source="org.eclipse.jst.jee.server:Project_001_JSF_hello"/><Context docBase="D:\clouds\Drive Ilimitado\FrontEnd_Java_JSF\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Project_002_JSF_createForm" path="/Project_002_JSF_createForm" reloadable="true" source="org.eclipse.jst.jee.server:Project_002_JSF_createForm"/></Host>
     </Engine>
   </Service>
 </Server>
